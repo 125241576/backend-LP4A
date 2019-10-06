@@ -1,5 +1,5 @@
 class Counter < ApplicationRecord
-    def increment!
+    def update!
         self.valeur += 1
         ActionCable.server.broadcast('counters', self)
     end

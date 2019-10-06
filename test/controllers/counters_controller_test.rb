@@ -36,8 +36,9 @@ class CountersControllerTest < ActionDispatch::IntegrationTest
   test "should increment counter" do
     old_valeur = @counter.valeur
     patch counter_url(@counter)
-    assert old_valeur + 1 == Counter.find(@counter.id).valeur
+    assert old_valeur + 1 == Counter.find(@counter.id).valeur 
     assert_redirected_to counter_url(@counter)
+
   end
 
   test "should destroy counter" do
