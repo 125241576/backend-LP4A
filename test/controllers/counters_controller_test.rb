@@ -34,9 +34,9 @@ class CountersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update counter" do
-    old_valeur=@counter.valeur
-    patch counter_url(@counter), params: { counter: { name: @counter.name, valeur: @counter.valeur } }
-    assert old_valeur + 1==Counter.find(@counter.id).valeur
+    old_valeur = @counter.valeur
+    patch counter_url(@counter)
+    assert old_valeur + 1 == Counter.find(@counter.id).valeur
     assert_redirected_to counter_url(@counter)
   end
 
