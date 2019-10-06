@@ -1,4 +1,6 @@
 # README
+XU Honghao
+[![Build Status](https://travis-ci.org/125241576/backend-LP4A.svg?branch=master)](https://travis-ci.org/125241576/backend-LP4A)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
