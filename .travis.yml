@@ -16,6 +16,6 @@ after_script:
 - "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
 deploy:
   provider: heroku
-  app: xhh-student
+  app: student-xhh
   api_key:
     secure: H7pFwUSkFcH+HMoVL4mYyCmGCkSu4ZtL2sR3ArPJiist95mTsV4Hr2op7zBI3MhhheuLPGIA9hrgQY+RbQKIFxCW+m9qRgDHxn76gugWf6HI6mnirovy04QS2c+oBaphsR/ByySwMchatI17mdMOqBioQjfmj+2C8tOUtEtFTRXGko0GMpIwTeIDfJLEFWTAgpPC8Z/6bgFQwWMcclkWtob3fKgcZPhSK6oszgJeJvkIXE+BxtWAaaqXVFh13e/VSacZJPrphYNeJJVLaRX3jpm3fOkQLcRjUj4mZPlVZhOcw07+rlBdpXTi7ka8yssmzHgvo1IVpLWW/yPkrHQZjLPwEZFWUHFLF+rwnKPx6MSSwWc5VO929UxIWyyhy4+DEDE6ykXBQFt/p9RGUvUefW+r4M++fEXXAvIhUH4nI3neo9zshXkQdRDb01sxOJ2SSqF9pSTwAE0o0t+z4j1ahvRjGNk0s2zSuJY0CBb5o8zaFiFp/JXinQmRXQVbr1dPJBefVwDDsRTqfN9I9dhT9KM0SRE5w+5sXhHT2ZbXVnNLaNf7RD/1QG9T2DMLVndtWCWPnIsX5A6UfB2st3Uo19sIn9QGypj/AaioopLaj76fbQPGZX10vpOn8valYiG7gDTCH8cnCEgOBloqo2QLL5CLgp7ms6N/EWOE/lHYmWY=
