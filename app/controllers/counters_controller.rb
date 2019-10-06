@@ -42,7 +42,7 @@ class CountersController < ApplicationController
   def update
     respond_to do |format|
       @counter.update!
-      if @counter.update(counter_params)
+      if @counter.save()
         format.html { redirect_to @counter, notice: 'Counter was successfully updated.' }
         format.json { render :show, status: :ok, location: @counter }
       else
